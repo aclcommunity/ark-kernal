@@ -19,11 +19,7 @@
  *      a blinking text cursor in the terminal, and a smooth vertical
  *      gradient desktop instead of flat color bands.
  *
- *  Still true: this is one real file, it really boots, it really draws its
- *  own GUI, and it is still a hobby-scale kernel (no paging, no fs, no
- *  multitasking). I'm not going to call it "bug-free" or "the best kernel
- *  ever" -- that'd be marketing, not engineering. What's here is real,
- *  tested in QEMU, and now meaningfully faster and nicer to look at.
+ *  
  *
  *  Build: see build.sh in the same folder.
  * ==========================================================================*/
