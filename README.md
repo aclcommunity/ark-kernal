@@ -55,6 +55,4 @@ titan.bin               Built kernel binary
 
 Compiles everything with `gcc -m32 -ffreestanding -fno-stack-protector -fno-pic -nostdlib`, links with a custom `linker.ld`, and packages the result into a bootable `titan.iso` via `grub-mkrescue` — ready to boot in QEMU or a VM.
 
-## Honest scope
 
-This is a **learning/hobby OS project**, not a production or security-hardened system. The safety layer, encryption, and fail-closed design choices are real and deliberate, but the project doesn't claim paging, true multitasking, or a full on-disk filesystem beyond the single encrypted volume blob. Everything listed above is implemented and working in QEMU — what you see is what's there.
